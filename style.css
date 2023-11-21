@@ -22,3 +22,11 @@ body {
     border-radius: 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.box>img {
+    padding: 10px;
+    object-fit: cover;
+    width: -webkit-fill-available;
+    height: 65%;
+    overflow: hidden;
+}
