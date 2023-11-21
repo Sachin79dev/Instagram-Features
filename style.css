@@ -23,10 +23,27 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.box>img {
+.box div {
+    width: auto;
+    height: 350px;
+    position: relative;
+}
+
+.box div>img {
     padding: 10px;
     object-fit: cover;
     width: -webkit-fill-available;
-    height: 65%;
+    height: 100%;
     overflow: hidden;
+}
+
+.box i {
+    color: #fff;
+    opacity: 0;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all ease 0.4s;
 }
